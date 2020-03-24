@@ -1,4 +1,4 @@
-// Practice Code for Node
+// Practice Code and Exercises from Eloquent Javascript
 
 const power = (base, exponent) => {
     let result = 1;
@@ -208,7 +208,7 @@ console.log(countChar("kakkerlak", "k"));
 console.log(countBs("BBC"));
 
 
-
+//Chapter Four: Objects and Arrays (Data Sets)
 
 
 
