@@ -209,6 +209,3 @@ function countBs(string) {
 console.log(countChar("kakkerlak", "k"));
 console.log(countBs("BBC"));
 
-function countCs(string) {
-
-}
