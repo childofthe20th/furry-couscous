@@ -11,7 +11,7 @@ const power = (base, exponent) => {
 console.log(power(2, 10));
 
 // next
-console.log("***next example");
+console.log("***next example***");
 
 let x = 10;
 if (true) {
@@ -36,7 +36,7 @@ console.log(halve(100));
 console.log(n);
 
 // next
-console.log("***next example");
+console.log("***next example***");
 
 // This function is called a function declaration and does not need to be ordered top to bottom
 console.log("The future says:", future());
@@ -46,7 +46,7 @@ function future() {
 }
 
 // next
-console.log("***next example");
+console.log("***next example***");
 
 // Call Stack
 function greet(who) {
@@ -57,7 +57,7 @@ greet("Harry");
 console.log("Bye");
 
 // next
-console.log("***next example");
+console.log("***next example***");
 
 // Exponent function
 
@@ -75,7 +75,7 @@ console.log(powerOf(2, 6));
 // → 64
 
 // next
-console.log("***next example");
+console.log("***next example***");
 
 // Ask Ro about this
 function multiplier(factor) {
@@ -87,7 +87,7 @@ console.log(twice(5)); //calls twice as a function??
 // → 10
 
 // next
-console.log("***next example");
+console.log("***next example***");
 
 //the number 13 could be reached by first multiplying by 3 and then adding 5 twice, whereas the number 15 cannot be reached at all.
 function findSolution(target) {
@@ -112,7 +112,7 @@ function findSolution(target) {
 console.log(findSolution(24));
 
 // next
-console.log("***next example");
+console.log("***next example***");
 
 function printFarmInventory(cows, chickens) {
   let cowString = String(cows);
@@ -208,3 +208,7 @@ function countBs(string) {
 
 console.log(countChar("kakkerlak", "k"));
 console.log(countBs("BBC"));
+
+function countCs(string) {
+
+}
