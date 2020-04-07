@@ -12,19 +12,3 @@ sequence.push(5);
 console.log(sequence);
 sequence.pop();
 console.log(sequence);
-
-//Triangle Loop (2 ways)
-
-var hash = "#";
-while (hash.length <= 7) {
-    console.log(hash);
-    hash += "#";    
-}
-
-const triangle = num => {
-    for (i = "#"; i.length <= num; i += "#") {
-        console.log(i);      
-    }
-} 
-
-triangle(10);

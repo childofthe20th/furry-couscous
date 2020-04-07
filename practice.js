@@ -209,3 +209,41 @@ function countBs(string) {
 console.log(countChar("kakkerlak", "k"));
 console.log(countBs("BBC"));
 
+//Triangle Loop (2 ways)
+
+var hash = "#";
+while (hash.length <= 7) {
+    console.log(hash);
+    hash += "#";    
+}
+
+const triangle = num => {
+    for (i = "#"; i.length <= num; i += "#") {
+        console.log(i);      
+    }
+} 
+
+triangle(10);
+
+
+// WDI for loop challenge
+const song = () => {
+    for (i = 0; i <= 15; i++) {
+        console.log("this is the song that never ends");   
+    }
+}
+
+song();
+
+// WDI Conditional Loop challenge
+
+const even10s = () => {
+  for (i=1; i<=10; i++) {
+    if (i % 2 == 0) {
+      console.log(i);
+    } 
+  }
+}
+
+even10s();
+
